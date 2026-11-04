@@ -9,5 +9,5 @@ it('Debe mostrar la tarea creada', () => {
   cy.get('#taskTitle').type('Comprar pan');
   cy.contains('Crear tarea').click();
 
-  cy.contains('Comprar Leche').should('exist');
+  cy.contains('Comprar pan').should('exist');
 });
